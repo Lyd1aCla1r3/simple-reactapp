@@ -1,0 +1,37 @@
+{
+    "microservices": [],
+    "microfrontends": [
+        {
+            "name": "simple-mfe",
+            "configMfe": "simple-mfe-config",
+            "customElement": "simple-mfe",
+            "stack": "react",
+            "type": "widget",
+            "group": "free",
+            "publicFolder": "public",
+            "titles": {
+                "en": "simple-mfe",
+                "it": "simple-mfe"
+            }
+            "params": [
+                {
+                    "name": "url",
+                    "description": "The Tableau visualization URL"
+                }
+            ]
+        },
+        {
+            "name": "simple-mfe-config",
+            "customElement": "simple-mfe-config",
+            "stack": "react",
+            "type": "widget-config",
+            "group": "free",
+            "publicFolder": "public"
+        }
+    ],
+    "svc": [],
+    "name": "simple-reactapp",
+    "version": "0.0.1",
+    "description": "simple-reactapp description",
+    "type": "bundle"
+}
